@@ -1,13 +1,24 @@
 <body>
   <header>
     <div class="logo">
-      <img src="ION-Logo_ico.ico" alt="Logo">
+      <img src="ION-Logo_ico.ico" alt="Logo"
+      routerLink="/home" 
+      routerLinkActive="activeButton" 
+      ariaCurrentWhenActive="page">
     </div>
     <div class="header-buttons">
-      <button class="icon-button">
+      <button 
+      class="icon-button" 
+      routerLink="/profile" 
+      routerLinkActive="activeButton" 
+      ariaCurrentWhenActive="page">
         <i class="fas fa-user"></i>
       </button>
-      <button class="icon-button">
+      <button 
+      class="icon-button"
+      routerLink="/settings" 
+      routerLinkActive="activeButton" 
+      ariaCurrentWhenActive="page">
         <i class="fas fa-cog"></i>
       </button>
     </div>

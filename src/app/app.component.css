@@ -26,6 +26,7 @@ header {
 .logo img {
   height: 30px;
   flex-grow: 1;
+  cursor: pointer;
 }
 
 .header-buttons {
