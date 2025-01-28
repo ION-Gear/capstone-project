@@ -49,9 +49,6 @@ header {
 }
 
 main {
-  margin-top: 80px; 
-  padding: 20px;
-  height: calc(100% - 80px); 
   display: flex;
   justify-content: center;
   align-items: center;
